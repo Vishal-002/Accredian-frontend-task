@@ -1,0 +1,20 @@
+.custom-paper {
+  padding: 20px;
+  margin-top: 50px;
+  transition: opacity 0.5s;
+  background-color: black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
